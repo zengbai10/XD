@@ -7,7 +7,7 @@ CoreGui:SetCore("SendNotification", {
 local a=tostring(game.Players.LocalPlayer.Character);
 if a=="zenghao10"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="Cat_XiaoY"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
