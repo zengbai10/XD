@@ -1,1 +1,1 @@
-local keysystem =loadstring(game:HttpGet("https://raw.githubusercontent.com/zengbai10/XD/main/XDkami",true))() keysystem:Create("XD卡密系统","56865686","请重试",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/zengbai10/XD/main/XD%20hub"))()
+local keysystem =loadstring(game:HttpGet("https://pastebin.com/raw/vQYL2Xqy",true))() keysystem:Create("XD卡密系统","56865686","请重试",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/zengbai10/XD/main/XD%20hub"))()
