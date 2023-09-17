@@ -1,34 +1,30 @@
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "XD hub",
-    Text = "已连接Github，正在加载",
-    Duration = 3, 
-})
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/zengbai10/XD/main/r%20ui'))()
+local Window = Rayfield:CreateWindow({
+    Name = "XD hub",
+    LoadingTitle = "XD hub",
+    LoadingSubtitle = "呵呵",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = nil, 
+       FileName = "XD hub"
+    },
+        Discord = {
+       Enabled = false,
+       Invite = "呵呵", 
+       RememberJoins = true 
+    },
+
+    KeySystem = true, 
+    KeySettings = {
+       Title = "XD hub",
+       Subtitle = "卡密系统",
+       Note = "已连接Github 卡密56865686 自动保存已开",
+       FileName = "Key", 
+       SaveKey = true, 
+       GrabKeyFromSite = false, 
+       Key = {"56865686"} 
+    }
+ })
  
-local a=tostring(game.Players.LocalPlayer.Character);
- 
-if a=="呵呵牛逼"then
-_G.she=true
-elseif a=="zenghao10"then
-_G.bmd=true
-elseif a=="Cat_XiaoY"then
-_G.bmd=true
-elseif a=="用户名"then
-_G.bmd=true
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "验证结果",
-    Text = a.."欢迎",
-    Duration = 5,
-})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zengbai10/XD/main/XD%20hub"))()
-    else 
-setclipboard("558051311")
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "加载失败",
-    Text = "切换卡密系统",
-    Duration = 10, 
-})
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/zengbai10/XD/main/xdkey')))()
-end
+ Rayfield:Destroy()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/zengbai10/XD/main/XD%20hub"))()
