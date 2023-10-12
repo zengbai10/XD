@@ -1,12 +1,12 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/zengbai10/XD/main/r%20ui'))()
 local Window = Rayfield:CreateWindow({
-    Name = "傻豆",
-    LoadingTitle = "傻豆脚本",
+    Name = "小豆",
+    LoadingTitle = "小豆脚本",
     LoadingSubtitle = "秦始皇拿着马桶追着吴新水打-呵呵",
     ConfigurationSaving = {
        Enabled = true,
        FolderName = nil, 
-       FileName = "XD hub"
+       FileName = "小豆脚本"
     },
         Discord = {
        Enabled = false,
@@ -16,7 +16,7 @@ local Window = Rayfield:CreateWindow({
 
     KeySystem = true, 
     KeySettings = {
-       Title = "傻豆脚本",
+       Title = "小豆脚本",
        Subtitle = "卡密系统",
        Note = "你好\n\卡密是自己的用户名",
        FileName = "Key", 
