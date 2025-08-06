@@ -4,7 +4,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Icon = "rbxthumb://type=Asset&id=114538045817975&w=150&h=150"})
 Duration = 1;
 
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Z2K-py/Selfty-RayfieldUI/refs/heads/main/Selfty%20%7C%20%F0%9F%94%97%20(RAYFIELD)'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/raxyd/RayFieldUIMODDED/refs/heads/main/main.lua'))()
 local Window = Rayfield:CreateWindow({
     Name = "小豆(Alpha) | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
 	Icon = 139738487794857,
