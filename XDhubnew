@@ -4,7 +4,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Icon = "rbxthumb://type=Asset&id=114538045817975&w=150&h=150"})
 Duration = 1;
 
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/jkxdino/Rayfieldui/refs/heads/main/ray'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Byte33x/rayfielduilib/refs/heads/main/source'))()
 local Window = Rayfield:CreateWindow({
     Name = "小豆(Alpha) | "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
 	Icon = 139738487794857,
